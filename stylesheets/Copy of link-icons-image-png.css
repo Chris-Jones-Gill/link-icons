@@ -1,0 +1,94 @@
+/* line 1, ../sass/Copy of link-icons-image-png.scss */
+[class*="icon-image"] {
+  display: inline-block;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/sprites/sprites.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 10, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-untitled {
+  background-position: 0 0;
+  width: 32px;
+}
+
+/* line 14, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-file-pdf {
+  background-position: -48px 0;
+  width: 32px;
+}
+
+/* line 18, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-file-openoffice {
+  background-position: -96px 0;
+  width: 32px;
+}
+
+/* line 22, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-file-word {
+  background-position: -144px 0;
+  width: 32px;
+}
+
+/* line 26, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-file-excel {
+  background-position: -192px 0;
+  width: 32px;
+}
+
+/* line 30, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-file-powerpoint {
+  background-position: -240px 0;
+  width: 32px;
+}
+
+/* line 34, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-file-zip {
+  background-position: -288px 0;
+  width: 32px;
+}
+
+/* line 38, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-file-xml {
+  background-position: -336px 0;
+  width: 32px;
+}
+
+/* line 42, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-file-css {
+  background-position: -384px 0;
+  width: 32px;
+}
+
+/* line 46, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-mail {
+  background-position: -432px 0;
+  width: 32px;
+}
+
+/* line 50, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-help {
+  background-position: -480px 0;
+  width: 32px;
+}
+
+/* line 54, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-warning {
+  background-position: -528px 0;
+  width: 32px;
+}
+
+/* line 58, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-info {
+  background-position: -576px 0;
+  width: 32px;
+}
+
+/* line 62, ../sass/Copy of link-icons-image-png.scss */
+.icon-image-feed {
+  background-position: -624px 0;
+  width: 32px;
+}

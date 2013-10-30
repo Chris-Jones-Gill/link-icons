@@ -1,0 +1,94 @@
+/* line 1, ../sass/link-icons-image-png.scss */
+[class*="icon-png"] {
+  display: inline-block;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/sprites/sprites.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 10, ../sass/link-icons-image-png.scss */
+.icon-png-image-external {
+  background-position: 0 0;
+  width: 32px;
+}
+
+/* line 14, ../sass/link-icons-image-png.scss */
+.icon-png-image-file-pdf {
+  background-position: -48px 0;
+  width: 32px;
+}
+
+/* line 18, ../sass/link-icons-image-png.scss */
+.icon-png-image-file-openoffice {
+  background-position: -96px 0;
+  width: 32px;
+}
+
+/* line 22, ../sass/link-icons-image-png.scss */
+.icon-png-image-file-word {
+  background-position: -144px 0;
+  width: 32px;
+}
+
+/* line 26, ../sass/link-icons-image-png.scss */
+.icon-png-image-file-excel {
+  background-position: -192px 0;
+  width: 32px;
+}
+
+/* line 30, ../sass/link-icons-image-png.scss */
+.icon-png-image-file-powerpoint {
+  background-position: -240px 0;
+  width: 32px;
+}
+
+/* line 34, ../sass/link-icons-image-png.scss */
+.icon-png-image-file-zip {
+  background-position: -288px 0;
+  width: 32px;
+}
+
+/* line 38, ../sass/link-icons-image-png.scss */
+.icon-png-image-file-xml {
+  background-position: -336px 0;
+  width: 32px;
+}
+
+/* line 42, ../sass/link-icons-image-png.scss */
+.icon-png-image-file-css {
+  background-position: -384px 0;
+  width: 32px;
+}
+
+/* line 46, ../sass/link-icons-image-png.scss */
+.icon-png-image-mail {
+  background-position: -432px 0;
+  width: 32px;
+}
+
+/* line 50, ../sass/link-icons-image-png.scss */
+.icon-png-image-help {
+  background-position: -480px 0;
+  width: 32px;
+}
+
+/* line 54, ../sass/link-icons-image-png.scss */
+.icon-png-image-warning {
+  background-position: -528px 0;
+  width: 32px;
+}
+
+/* line 58, ../sass/link-icons-image-png.scss */
+.icon-png-image-info {
+  background-position: -576px 0;
+  width: 32px;
+}
+
+/* line 62, ../sass/link-icons-image-png.scss */
+.icon-png-image-feed {
+  background-position: -624px 0;
+  width: 32px;
+}
