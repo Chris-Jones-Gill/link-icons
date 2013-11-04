@@ -7,10 +7,8 @@ Icon font created from [IcoMoon](http://icomoon.io/ "IcoMoon hompage - opens in 
 
 You can view the demo by cloning the repo and viewing the index.html in a browser.
 
-If you use this and find it useful consider donating using Gittip <script data-gittip-username="KISS-Web-Design"
-        data-gittip-widget="button"
-        src="//gttp.co/v1.js"></script>   
-  
+If you use this and find it useful consider donating using [Gittip](https://www.gittip.com/KISS-Web-Design/ "KISS Web Design's Gittip page")
+
 ------------    
   
 Contact info  
