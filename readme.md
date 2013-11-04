@@ -5,7 +5,11 @@ This is a project that displays link and/or file type icons based on the filetyp
   
 Icon font created from [IcoMoon](http://icomoon.io/ "IcoMoon hompage - opens in a new window") by KISS Web Design.  
 
-You can view the demo by cloning the repo and viewing the index.html in a browser.   
+You can view the demo by cloning the repo and viewing the index.html in a browser.
+
+If you use this and find it useful consider donating using Gittip <script data-gittip-username="KISS-Web-Design"
+        data-gittip-widget="button"
+        src="//gttp.co/v1.js"></script>   
   
 ------------    
   
