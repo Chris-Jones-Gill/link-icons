@@ -1,0 +1,71 @@
+[class*="icon-"] {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url(sprites.svg);
+	background-repeat: no-repeat;
+}
+.icon-untitled {
+	background-position: 0 0;
+	width: 32px;
+}
+.icon-file-pdf {
+	background-position: -48px 0;
+	width: 32px;
+}
+.icon-file-openoffice {
+	background-position: -96px 0;
+	width: 32px;
+}
+.icon-file-word {
+	background-position: -144px 0;
+	width: 32px;
+}
+.icon-file-excel {
+	background-position: -192px 0;
+	width: 32px;
+}
+.icon-file-powerpoint {
+	background-position: -240px 0;
+	width: 32px;
+}
+.icon-file-zip {
+	background-position: -288px 0;
+	width: 32px;
+}
+.icon-file-xml {
+	background-position: -336px 0;
+	width: 32px;
+}
+.icon-file-css {
+	background-position: -384px 0;
+	width: 32px;
+}
+.icon-mail {
+	background-position: -432px 0;
+	width: 32px;
+}
+.icon-help {
+	background-position: -480px 0;
+	width: 32px;
+}
+.icon-warning {
+	background-position: -528px 0;
+	width: 32px;
+}
+.icon-info {
+	background-position: -576px 0;
+	width: 32px;
+}
+.icon-feed {
+	background-position: -624px 0;
+	width: 32px;
+}
+.icon-libreoffice {
+	background-position: -672px 0;
+	width: 32px;
+}
+.icon-file {
+	background-position: -720px 0;
+	width: 32px;
+}
