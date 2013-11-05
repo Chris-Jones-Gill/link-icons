@@ -29,92 +29,107 @@ a[href$=".pdf"]:after,
 a[href$=".doc"]:after,
 a[href$=".xls"]:after,
 a[href$=".odt"]:after,
+a[href$=".txt"]:after,
 a[href$=".ppt"]:after,
 a[href$=".zip"]:after,
 a[href$=".rss"]:after,
 a[href$=".rdf"]:after,
-[class*="icon-"][class*="-kwd"] 
+[class*="icon-font"] 
 {
   @include icon-font;
 }
 
 a[href$=".rss"]:after,
 a[href$=".rdf"]:after,
-.icon-link-feed-kwd:after {
+.icon-font-feed:after {
   content: "\e284";
   padding-left: 0.25em;
 }
 
 a.external:after,
-.icon-link-external-kwd:after {
+.icon-font-external:after {
   content: "\f08e";
   padding-left: 0.25em;
 }
 
 a[href$=".pdf"]:after,
-.icon-link-pdf-kwd:after {
+.icon-font-pdf:after {
   content: "\e2bb";
   padding-left: 0.25em;
 }
 
-a[href$=".odt"]:after,
-.icon-link-openoffice-kwd:after {
-  content: "\e2bc";
+a[href$=".txt"]:after,
+.icon-font-text:after {
+  content: "\e052";
   padding-left: 0.25em;
 }
 
 a[href$=".doc"]:after,
-.icon-link-word-kwd:after {
+.icon-font-word:after {
   content: "\e2bd";
   padding-left: 0.25em;
 }
 
 a[href$=".xls"]:after,
-.icon-link-excel-kwd:after {
+.icon-font-excel:after {
   content: "\e2be";
   padding-left: 0.25em;
 }
 
 a[href$=".ppt"]:after,
-.icon-link-powerpoint-kwd:after {
+.icon-font-powerpoint:after {
   content: "\e2bf";
   padding-left: 0.25em;
 }
 
 a[href$=".zip"]:after,
-.icon-link-zip-kwd:after {
+.icon-font-zip:after {
   content: "\e2c0";
   padding-left: 0.25em;
 }
 
-.icon-link-html-kwd:after {
+.icon-font-html:after {
   content: "\e2c1";
   padding-left: 0.25em;
 }
 
-.icon-link-css-kwd:after {
+.icon-font-css:after {
   content: "\e2c2";
   padding-left: 0.25em;
 }
 
 a[href^="mailto:"]:after,
-.icon-link-mail-kwd:after {
+.icon-font-mail:after {
   content: "\e079";
   padding-left: 0.25em;
 }
 
-.icon-link-help-kwd:after {
+.icon-font-help:after {
   content: "\e1e0";
   padding-left: 0.25em;
 }
 
-.icon-link-warning-kwd:after {
+.icon-font-warning:after {
   content: "\e1dc";
   padding-left: 0.25em;
 }
 
-.icon-link-info-kwd:after {
+.icon-font-info:after {
   content: "\e1e3";
+  padding-left: 0.25em;
+}
+
+/* choose either open office or libre office for the file type */
+/* by commenting out one of the a[href...] lines               */
+/* a[href$=".odt"]:after, */
+.icon-font-openoffice:after {
+  content: "\e2bc";
+  padding-left: 0.25em;
+}
+
+a[href$=".odt"]:after,
+.icon-font-libreoffice:after {
+  content: "\e2ba";
   padding-left: 0.25em;
 }
 

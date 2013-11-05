@@ -2,93 +2,209 @@
 [class*="icon-png"] {
   display: inline-block;
   display: inline-block;
-  width: 32px;
-  height: 32px;
-  background-image: url(../images/sprites/sprites.png);
   background-repeat: no-repeat;
   background-size: cover;
+  vertical-align: baseline;
 }
 
-/* line 10, ../sass/link-icons-image-png.scss */
-.icon-png-image-external {
-  background-position: 0 0;
-  width: 32px;
+/* line 8, ../sass/link-icons-image-png.scss */
+[class*="icon-png16"] {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/sprites/16/sprites.png);
 }
 
-/* line 14, ../sass/link-icons-image-png.scss */
-.icon-png-image-file-pdf {
-  background-position: -48px 0;
+/* line 13, ../sass/link-icons-image-png.scss */
+[class*="icon-png32"] {
   width: 32px;
+  height: 32px;
+  background-image: url(../images/sprites/32/sprites.png);
 }
 
 /* line 18, ../sass/link-icons-image-png.scss */
-.icon-png-image-file-openoffice {
-  background-position: -96px 0;
-  width: 32px;
+[class*="icon-png48"] {
+  width: 48px;
+  height: 48px;
+  background-image: url(../images/sprites/48/sprites.png);
 }
 
-/* line 22, ../sass/link-icons-image-png.scss */
-.icon-png-image-file-word {
-  background-position: -144px 0;
-  width: 32px;
+/* line 23, ../sass/link-icons-image-png.scss */
+[class*="icon-png64"] {
+  width: 64px;
+  height: 64px;
+  background-image: url(../images/sprites/64/sprites.png);
 }
 
-/* line 26, ../sass/link-icons-image-png.scss */
-.icon-png-image-file-excel {
-  background-position: -192px 0;
-  width: 32px;
+/* line 28, ../sass/link-icons-image-png.scss */
+.icon-png16-external {
+  background-position: 0 0;
+  vertical-align: middle;
 }
 
-/* line 30, ../sass/link-icons-image-png.scss */
-.icon-png-image-file-powerpoint {
-  background-position: -240px 0;
-  width: 32px;
+/* line 32, ../sass/link-icons-image-png.scss */
+.icon-png16-pdf {
+  background-position: -32px 0;
 }
 
-/* line 34, ../sass/link-icons-image-png.scss */
-.icon-png-image-file-zip {
-  background-position: -288px 0;
-  width: 32px;
+/* line 35, ../sass/link-icons-image-png.scss */
+.icon-png16-openoffice {
+  background-position: -64px 0;
 }
 
 /* line 38, ../sass/link-icons-image-png.scss */
-.icon-png-image-file-xml {
-  background-position: -336px 0;
-  width: 32px;
+.icon-png16-word {
+  background-position: -96px 0;
 }
 
-/* line 42, ../sass/link-icons-image-png.scss */
-.icon-png-image-file-css {
-  background-position: -384px 0;
-  width: 32px;
+/* line 41, ../sass/link-icons-image-png.scss */
+.icon-png16-excel {
+  background-position: -128px 0;
 }
 
-/* line 46, ../sass/link-icons-image-png.scss */
-.icon-png-image-mail {
-  background-position: -432px 0;
-  width: 32px;
+/* line 44, ../sass/link-icons-image-png.scss */
+.icon-png16-powerpoint {
+  background-position: -160px 0;
+}
+
+/* line 47, ../sass/link-icons-image-png.scss */
+.icon-png16-zip {
+  background-position: -192px 0;
 }
 
 /* line 50, ../sass/link-icons-image-png.scss */
-.icon-png-image-help {
-  background-position: -480px 0;
-  width: 32px;
+.icon-png16-xml {
+  background-position: -224px 0;
 }
 
-/* line 54, ../sass/link-icons-image-png.scss */
-.icon-png-image-warning {
-  background-position: -528px 0;
-  width: 32px;
+/* line 53, ../sass/link-icons-image-png.scss */
+.icon-png16-css {
+  background-position: -256px 0;
 }
 
-/* line 58, ../sass/link-icons-image-png.scss */
-.icon-png-image-info {
-  background-position: -576px 0;
-  width: 32px;
+/* line 56, ../sass/link-icons-image-png.scss */
+.icon-png16-mail {
+  background-position: -288px 0;
+}
+
+/* line 59, ../sass/link-icons-image-png.scss */
+.icon-png16-help {
+  background-position: -320px 0;
 }
 
 /* line 62, ../sass/link-icons-image-png.scss */
-.icon-png-image-feed {
+.icon-png16-warning {
+  background-position: -352px 0;
+}
+
+/* line 65, ../sass/link-icons-image-png.scss */
+.icon-png16-info {
+  background-position: -384px 0;
+}
+
+/* line 68, ../sass/link-icons-image-png.scss */
+.icon-png16-feed {
+  background-position: -416px 0;
+}
+
+/* line 71, ../sass/link-icons-image-png.scss */
+.icon-png16-libreoffice {
+  background-position: -448px 0;
+}
+
+/* line 74, ../sass/link-icons-image-png.scss */
+.icon-png16-text {
+  background-position: -480px 0;
+}
+
+/* line 77, ../sass/link-icons-image-png.scss */
+.icon-png32-external {
+  background-position: 0 0;
+  vertical-align: sub;
+}
+
+/* line 81, ../sass/link-icons-image-png.scss */
+.icon-png32-pdf {
+  background-position: -48px 0;
+}
+
+/* line 84, ../sass/link-icons-image-png.scss */
+.icon-png32-openoffice {
+  background-position: -96px 0;
+}
+
+/* line 87, ../sass/link-icons-image-png.scss */
+.icon-png32-word {
+  background-position: -144px 0;
+}
+
+/* line 90, ../sass/link-icons-image-png.scss */
+.icon-png32-excel {
+  background-position: -192px 0;
+}
+
+/* line 93, ../sass/link-icons-image-png.scss */
+.icon-png32-powerpoint {
+  background-position: -240px 0;
+}
+
+/* line 96, ../sass/link-icons-image-png.scss */
+.icon-png32-zip {
+  background-position: -288px 0;
+}
+
+/* line 99, ../sass/link-icons-image-png.scss */
+.icon-png32-xml {
+  background-position: -336px 0;
+}
+
+/* line 102, ../sass/link-icons-image-png.scss */
+.icon-png32-css {
+  background-position: -384px 0;
+}
+
+/* line 105, ../sass/link-icons-image-png.scss */
+.icon-png32-mail {
+  background-position: -432px 0;
+}
+
+/* line 108, ../sass/link-icons-image-png.scss */
+.icon-png32-help {
+  background-position: -480px 0;
+}
+
+/* line 111, ../sass/link-icons-image-png.scss */
+.icon-png32-warning {
+  background-position: -528px 0;
+}
+
+/* line 114, ../sass/link-icons-image-png.scss */
+.icon-png32-info {
+  background-position: -576px 0;
+}
+
+/* line 117, ../sass/link-icons-image-png.scss */
+.icon-png32-feed {
   background-position: -624px 0;
-  width: 32px;
+}
+
+/* line 120, ../sass/link-icons-image-png.scss */
+.icon-png32-libreoffice {
+  background-position: -672px 0;
+}
+
+/* line 123, ../sass/link-icons-image-png.scss */
+.icon-png32-text {
+  background-position: -720px 0;
+}
+
+/* line 126, ../sass/link-icons-image-png.scss */
+.icon-png48-external {
+  background-position: 0 0;
+  vertical-align: sub;
+}
+
+/* line 130, ../sass/link-icons-image-png.scss */
+.icon-png64-external {
+  background-position: 0 0;
+  vertical-align: sub;
 }

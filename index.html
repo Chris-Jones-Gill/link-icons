@@ -25,7 +25,7 @@
 				<li>Link type (only applies to mailto:)</li>
 				<li>Class name</li>
 			</ul>
-			<p>The SVG and PNG images are 32px x 32px, and are avaiable as sprites or individually. Sprites have been used here.</p>
+			<p>The SVG and PNG images are available in 16px, 32px, 48px and 64px sizes, and are avaiable as sprites or individually. Sprites have been used here.</p>
 			<p>If class names are required, they are shown next to the icon.</p>
 			<p>For users with IE7 or lower there is an extra stylesheet and javascript file to be included - use conditional comments to only include them for the browsers than need them<br />
 				e.g.<br />
@@ -33,38 +33,41 @@
   				&lt;link rel="stylesheet" href="stylesheets/ie7.css"&gt;<br /> 
 				&lt;!--&lt;![endif]--&gt;</p>
 		</div>
-		<h2>Web Font</h2>
-		<h3>By filetype</h3>
-		<p>If a link is to a file, the icon is automatically added based on the file extension - e.g. file.pdf will show the <span class="icon-link-pdf-kwd">PDF icon</span> after it </p>
+		<h2>Web Font by filetype</h2>
+		<p>If a link is to a file, the icon is automatically added based on the file extension - e.g. file.pdf will show the <span class="icon-font-pdf">PDF icon</span> after it </p>
 		<a href="http://kisswebdesign.co.uk/cd.pdf">PDF</a><br />
 		<a href="http://kisswebdesign.co.uk/cd.doc">DOC</a><br />
 		<a href="http://kisswebdesign.co.uk/cd.xls">XLS</a><br />
 		<a href="http://kisswebdesign.co.uk/cd.rss">RSS</a><br />
 		<a href="http://kisswebdesign.co.uk/cd.odt">ODT</a><br />
 		<a href="http://kisswebdesign.co.uk/cd.ppt">PPT</a><br />
+		<a href="http://kisswebdesign.co.uk/cd.txt">TXT</a><br />
 		<a href="http://kisswebdesign.co.uk/cd.zip">ZIP</a><br />
 	
 		<h3>By link type</h3>
 		<a href="mailto:chris@jones-gill.co.uk">mailto</a><br />
 	
-		<h3>By class name</h3>
-		<a class="external" href="http://kisswebdesign.co.uk">external</a><br />
-		<div class="icon-link-mail-kwd">icon-link-mail-kwd</div>
+		<h2>By class name</h2>
+		<p>The class naming convention is "icon-type(optional size)-name" eg icon-font-pdf is the class name for using the web font for a pdf (note: web fonts do not require a size). If you wanted a 32px svg image of the pdf icon you would use icon-svg32-pdf. Simples!</p>
+		<h3>Web font</h3>
+		<a class="icon-font-external" href="http://kisswebdesign.co.uk">icon-font-external</a><br />
+		<div class="icon-font-mail">icon-font-mail</div>
 		<br />
-		<div class="icon-link-info-kwd">icon-link-info-kwd</div>	
-		<div class="icon-link-help-kwd">icon-link-help-kwd</div>
-		<div class="icon-link-warning-kwd">icon-link-warning-kwd</div>
+		<div class="icon-font-info">icon-font-info</div>	
+		<div class="icon-font-help">icon-font-help</div>
+		<div class="icon-font-warning">icon-font-warning</div>
 		<br />
-		<div class="icon-link-html-kwd">.icon-link-html-kwd</div>
-		<div class="icon-link-css-kwd">.icon-link-css-kwd</div>
+		<div class="icon-font-html">.icon-font-html</div>
+		<div class="icon-font-css">.icon-font-css</div>
 		<br />
-		<div class="icon-link-pdf-kwd">icon-link-pdf-kwd</div>
-		<div class="icon-link-word-kwd">icon-link-word-kwd</div>
-		<div class="icon-link-excel-kwd">icon-link-excel-kwd</div>
-		<div class="icon-link-feed-kwd">icon-link-feed-kwd</div>
-		<div class="icon-link-openoffice-kwd">icon-link-openoffice-kwd</div>
-		<div class="icon-link-powerpoint-kwd">icon-link-powerpoint-kwd</div>
-		<div class="icon-link-zip-kwd">icon-link-zip-kwd</div>
+		<div class="icon-font-pdf">icon-font-pdf</div>
+		<div class="icon-font-word">icon-font-word</div>
+		<div class="icon-font-excel">icon-font-excel</div>
+		<div class="icon-font-feed">icon-font-feed</div>
+		<div class="icon-font-openoffice">icon-font-openoffice</div>
+		<div class="icon-font-powerpoint">icon-font-powerpoint</div>
+		<div class="icon-font-text">icon-font-txt</div>
+		<div class="icon-font-zip">icon-font-zip</div>
 	
 		<h2>As svg images</h2>
 		<p>Use &lt;span&gt; with the relevant class.</p>
@@ -84,21 +87,23 @@
 		<div><span class="icon-svg-image-feed"></span> icon-svg-image-feed</div>
 		
 			<h2>As png images</h2>
-			<p>Use &lt;span&gt; with the relevant class.</p>
-		<div><span class="icon-png-image-external"></span> icon-png-image-external</div>
-		<div><span class="icon-png-image-file-pdf"></span> icon-png-image-file-pdf</div>
-		<div><span class="icon-png-image-file-openoffice"></span> icon-png-image-file-openoffice</div>
-		<div><span class="icon-png-image-file-word"></span> icon-png-image-file-word</div>
-		<div><span class="icon-png-image-file-excel"></span> icon-png-image-file-excel</div>
-		<div><span class="icon-png-image-file-powerpoint"></span> icon-png-image-file-powerpoint</div>
-		<div><span class="icon-png-image-file-zip"></span> icon-png-image-file-zip</div>
-		<div><span class="icon-png-image-file-xml"></span> icon-png-image-file-xml</div>
-		<div><span class="icon-png-image-file-css"></span> icon-png-image-file-css</div>
-		<div><span class="icon-png-image-mail"></span> icon-png-image-mail</div>
-		<div><span class="icon-png-image-help"></span> icon-png-image-help</div>
-		<div><span class="icon-png-image-warning"></span> icon-png-image-warning</div>
-		<div><span class="icon-png-image-info"></span> icon-png-image-info</div>
-		<div><span class="icon-png-image-feed"></span> icon-png-image-feed</div>
+			<p>Use &lt;span&gt; with the relevant class. XX is 64, 48, 32 or 16.</p>
+		<div><span class="icon-png64-external"></span><span class="icon-png48-external"></span><span class="icon-png32-external"></span><span class="icon-png16-external"></span> icon-pngXX-external</div>
+		<div><span class="icon-png32-pdf"></span><span class="icon-png16-pdf"></span> icon-pngXX-pdf</div>
+		<div><span class="icon-png32-openoffice"></span><span class="icon-png16-openoffice"></span> icon-pngXX-openoffice</div>
+		<div><span class="icon-png32-libreoffice"></span><span class="icon-png16-libreoffice"></span> icon-pngXX-libreoffice</div>
+		<div><span class="icon-png32-word"></span><span class="icon-png16-word"></span> icon-pngXX-word</div>
+		<div><span class="icon-png32-excel"></span><span class="icon-png16-excel"></span> icon-pngXX-excel</div>
+		<div><span class="icon-png32-powerpoint"></span><span class="icon-png16-powerpoint"></span> icon-pngXX-powerpoint</div>
+		<div><span class="icon-png32-text"></span><span class="icon-png16-text"></span> icon-pngXX-text</div>
+		<div><span class="icon-png32-zip"></span><span class="icon-png16-zip"></span> icon-pngXX-zip</div>
+		<div><span class="icon-png32-xml"></span><span class="icon-png16-xml"></span> icon-pngXX-xml</div>
+		<div><span class="icon-png32-css"></span><span class="icon-png16-css"></span> icon-pngXX-css</div>
+		<div><span class="icon-png32-mail"></span><span class="icon-png16-mail"></span> icon-pngXX-mail</div>
+		<div><span class="icon-png32-help"></span><span class="icon-png16-help"></span> icon-pngXX-help</div>
+		<div><span class="icon-png32-warning"></span><span class="icon-png16-warning"></span> icon-pngXX-warning</div>
+		<div><span class="icon-png32-info"></span><span class="icon-png16-info"></span> icon-pngXX-info</div>
+		<div><span class="icon-png32-feed"></span><span class="icon-png16-feed"></span> icon-pngXX-feed</div>
 		
 		
 			<!--[if lt IE 8]>
