@@ -1,0 +1,48 @@
+.icon-font-external {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf08e;');
+}
+.icon-font-pdf {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2bb;');
+}
+.icon-font-openoffice {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2bc;');
+}
+.icon-font-word {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2bd;');
+}
+.icon-font-excel {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2be;');
+}
+.icon-font-powerpoint {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2bf;');
+}
+.icon-font-zip {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2c0;');
+}
+.icon-font-html {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2c1;');
+}
+.icon-font-css {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2c2;');
+}
+.icon-font-mail {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe079;');
+}
+.icon-font-help {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe1e0;');
+}
+.icon-font-warning {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe1dc;');
+}
+.icon-font-info {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe1e3;');
+}
+.icon-font-feed {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe284;');
+}
+.icon-font-libreoffice {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe2ba;');
+}
+.icon-font-text {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe052;');
+}
