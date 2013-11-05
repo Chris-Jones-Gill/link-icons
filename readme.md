@@ -3,7 +3,7 @@ About This Project
 
 This is a project that displays link and/or file type icons based on the filetype of a link - or as specified by class.    
   
-Icon font created from [IcoMoon](http://icomoon.io/ "IcoMoon hompage - opens in a new window") by KISS Web Design.  
+Icon font created using [IcoMoon](http://icomoon.io/ "IcoMoon hompage - opens in a new window") by KISS Web Design, it contains icons from the IcoMoon and the Font Awesome Web Fonts.  
 
 You can view the demo by cloning the repo and viewing the index.html in a browser.
 
@@ -37,6 +37,8 @@ LICENCES
 ========
  * The images in this work are licensed under a [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/deed.en_US "CC-A 3.0 license - opens in a new window")
 
+ * The External icon is licenced under an [SIL Open Font Licence](http://scripts.sil.org/OFL "SIL licence page")
+
  * This remaining files are released under the GPL version 3
    See GPlv3.txt for full terms.
   
@@ -62,10 +64,12 @@ COPYRIGHTS
    (c) 2013 KISS Web Design
    
  * Images
-   (c) IcoMoon
+   (c) IcoMoon except
+   External icon (c) Font Awesome
    
  * Fonts
-   (c) IcoMoon
+   (c) IcoMoon except
+   External icon (c) Font Awesome
    
  * Javascript
    (c) IcoMoon
