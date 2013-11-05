@@ -3,7 +3,7 @@
   display: inline-block;
   background-repeat: no-repeat;
   background-size: cover;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 [class*="icon-png16"] {
   width: 16px;
@@ -27,7 +27,6 @@
 }
 .icon-png16-external {
   background-position: 0 0;
-  vertical-align: middle;
 }
 .icon-png16-pdf {
   background-position: -32px 0;
@@ -76,7 +75,6 @@
 }
 .icon-png32-external {
   background-position: 0 0;
-  vertical-align: sub;
 }
 .icon-png32-pdf {
   background-position: -48px 0;
@@ -125,10 +123,97 @@
 }
 .icon-png48-external {
   background-position: 0 0;
-  vertical-align: sub;
+}
+.icon-png48-pdf {
+  background-position: -64px 0;
+}
+.icon-png48-openoffice {
+  background-position: -128px 0;
+}
+.icon-png48-word {
+  background-position: -192px 0;
+}
+.icon-png48-excel {
+  background-position: -256px 0;
+}
+.icon-png48-powerpoint {
+  background-position: -320px 0;
+}
+.icon-png48-zip {
+  background-position: -384px 0;
+}
+.icon-png48-xml {
+  background-position: -448px 0;
+}
+.icon-png48-css {
+  background-position: -512px 0;
+}
+.icon-png48-mail {
+  background-position: -576px 0;
+}
+.icon-png48-help {
+  background-position: -640px 0;
+}
+.icon-png48-warning {
+  background-position: -704px 0;
+}
+.icon-png48-info {
+  background-position: -768px 0;
+}
+.icon-png48-feed {
+  background-position: -832px 0;
+}
+.icon-png48-libreoffice {
+  background-position: -896px 0;
+}
+.icon-png48-text {
+  background-position: -960px 0;
 }
 .icon-png64-external {
   background-position: 0 0;
-  vertical-align: sub;
 }
-
+.icon-png64-pdf {
+  background-position: -80px 0;
+}
+.icon-png64-openoffice {
+  background-position: -160px 0;
+}
+.icon-png64-word {
+  background-position: -240px 0;
+}
+.icon-png64-excel {
+  background-position: -320px 0;
+}
+.icon-png64-powerpoint {
+  background-position: -400px 0;
+}
+.icon-png64-zip {
+  background-position: -480px 0;
+}
+.icon-png64-xml {
+  background-position: -560px 0;
+}
+.icon-png64-css {
+  background-position: -640px 0;
+}
+.icon-png64-mail {
+  background-position: -720px 0;
+}
+.icon-png64-help {
+  background-position: -800px 0;
+}
+.icon-png64-warning {
+  background-position: -880px 0;
+}
+.icon-png64-info {
+  background-position: -960px 0;
+}
+.icon-png64-feed {
+  background-position: -1040px 0;
+}
+.icon-png64-libreoffice {
+  background-position: -1120px 0;
+}
+.icon-png64-text {
+  background-position: -1200px 0;
+}

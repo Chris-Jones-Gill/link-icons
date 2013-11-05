@@ -134,6 +134,7 @@ a[href$=".odt"]:after,
 }
 
 .noIcon:after {
-  content: ";";
-  padding-left: 0;
+    content: none;
+    font-size: 0;
+    padding-left: 0;
 }

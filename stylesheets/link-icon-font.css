@@ -145,6 +145,7 @@ a[href$=".odt"]:after,
 
 /* line 136, ../sass/link-icon-font.scss */
 .noIcon:after {
-  content: ";";
+  content: none;
+  font-size: 0;
   padding-left: 0;
 }

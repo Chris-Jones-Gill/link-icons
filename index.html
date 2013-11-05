@@ -11,21 +11,24 @@
 	<div role="main">
 		<div class="intro">
 			<h1>Link Type Examples</h1>
-			<p>Icon font created from <a href="http://icomoon.io/" target="_blank" title="IcoMoon hompage - opens in a new window" class="external">IcoMoon</a> by KISS Web Design.<br />
+			<p>This project has been created by KISS Web Design, and includes icons taken from the <a href="http://icomoon.io/" target="_blank" title="IcoMoon hompage - opens in a new window" class="external">IcoMoon</a> Icon Font and the <a href="http://fontawesome.io/" target="_blank" title="Font Awesome hompage - opens in a new window" class="external">FontAwesome</a> Icon Font.<br />
 			</p>
 			<p>There are 3 main ways of using the icons:</p>
 			<ul>
-				<li>Web Font</li>
-				<li>SVG Images</li>
-				<li>PNG Images</li>
+				<li>Web Font (svg, woff, ttf, eot - in that order of preference)</li>
+				<li>SVG Images (in case you dont want to use a font)</li>
+				<li>PNG Images (only use as a final fallback)</li>
 			</ul>
+			<p>Web Font should be your first choice, as they can be styled in the same way as any text. eg. color, size, weight, text-shadow, etc. Whereas the image files are only supplied in black.</p>
 			<p>Additionally, the icon font can be displayed according to</p>
 			<ul>
-				<li>File type</li>
+				<li>File type </li>
 				<li>Link type (only applies to mailto:)</li>
 				<li>Class name</li>
 			</ul>
-			<p>The SVG and PNG images are available in 16px, 32px, 48px and 64px sizes, and are avaiable as sprites or individually. Sprites have been used here.</p>
+			<p>File and Link type are only applicable to the Web Font, and are applied to any $lt;a href... link. If you don't want to use the icon you can add the class "noIcon".</p>
+			<p><a class="noIcon" href="http://kisswebdesign.co.uk/cd.pdf">This link is for a PDF</a> there is no icon because the "noIcon" class has been used.</p>
+			<p>The SVG and PNG images are available in black only and at 16px, 32px, 48px and 64px sizes, they are avaiable as sprites or individually. Sprites have been used here.</p>
 			<p>If class names are required, they are shown next to the icon.</p>
 			<p>For users with IE7 or lower there is an extra stylesheet and javascript file to be included - use conditional comments to only include them for the browsers than need them<br />
 				e.g.<br />
@@ -70,40 +73,74 @@
 		<div class="icon-font-zip">icon-font-zip</div>
 	
 		<h2>As svg images</h2>
-		<p>Use &lt;span&gt; with the relevant class.</p>
-		<div><span class="icon-svg-image-external"></span> icon-svg-image-external</div>
-		<div><span class="icon-svg-image-file-pdf"></span> icon-svg-image-file-pdf</div>
-		<div><span class="icon-svg-image-file-openoffice"></span> icon-svg-image-file-openoffice</div>
-		<div><span class="icon-svg-image-file-word"></span> icon-svg-image-file-word</div>
-		<div><span class="icon-svg-image-file-excel"></span> icon-svg-image-file-excel</div>
-		<div><span class="icon-svg-image-file-powerpoint"></span> icon-svg-image-file-powerpoint</div>
-		<div><span class="icon-svg-image-file-zip"></span> icon-svg-image-file-zip</div>
-		<div><span class="icon-svg-image-file-xml"></span> icon-svg-image-file-xml</div>
-		<div><span class="icon-svg-image-file-css"></span> icon-svg-image-file-css</div>
-		<div><span class="icon-svg-image-mail"></span> icon-svg-image-mail</div>
-		<div><span class="icon-svg-image-help"></span> icon-svg-image-help</div>
-		<div><span class="icon-svg-image-warning"></span> icon-svg-image-warning</div>
-		<div><span class="icon-svg-image-info"></span> icon-svg-image-info</div>
-		<div><span class="icon-svg-image-feed"></span> icon-svg-image-feed</div>
+			<p>Use &lt;span&gt; with the relevant class.</p>
+			<p>Class name is the text shown prefixed by "icon-pngXX-", where XX is 64, 48, 32 or 16.</p>
+		<div><span class="icon-svg64-external"></span> <span class="icon-svg48-external"></span> <span class="icon-svg32-external"></span> <span class="icon-svg16-external"></span> external</div>
+		<br />
+		<div><span class="icon-svg64-pdf"></span> <span class="icon-svg48-pdf"></span> <span class="icon-svg32-pdf"></span> <span class="icon-svg16-pdf"></span> pdf</div>
+		<br />
+		<div><span class="icon-svg64-openoffice"></span> <span class="icon-svg48-openoffice"></span> <span class="icon-svg32-openoffice"></span> <span class="icon-svg16-openoffice"></span> openoffice</div>
+		<br />
+		<div><span class="icon-svg64-libreoffice"></span> <span class="icon-svg48-libreoffice"></span> <span class="icon-svg32-libreoffice"></span> <span class="icon-svg16-libreoffice"></span> libreoffice</div>
+		<br />
+		<div><span class="icon-svg64-word"></span> <span class="icon-svg48-word"></span> <span class="icon-svg32-word"></span> <span class="icon-svg16-word"></span> word</div>
+		<br />
+		<div><span class="icon-svg64-excel"></span> <span class="icon-svg48-excel"></span> <span class="icon-svg32-excel"></span> <span class="icon-svg16-excel"></span> excel</div>
+		<br />
+		<div><span class="icon-svg64-powerpoint"></span> <span class="icon-svg48-powerpoint"></span> <span class="icon-svg32-powerpoint"></span> <span class="icon-svg16-powerpoint"></span> powerpoint</div>
+		<br />
+		<div><span class="icon-svg64-text"></span> <span class="icon-svg48-text"></span> <span class="icon-svg32-text"></span> <span class="icon-svg16-text"></span> text</div>
+		<br />
+		<div><span class="icon-svg64-zip"></span> <span class="icon-svg48-zip"></span> <span class="icon-svg32-zip"></span> <span class="icon-svg16-zip"></span> zip</div>
+		<br />
+		<div><span class="icon-svg64-xml"></span> <span class="icon-svg48-xml"></span> <span class="icon-svg32-xml"></span> <span class="icon-svg16-xml"></span> xml</div>
+		<br />
+		<div><span class="icon-svg64-css"></span> <span class="icon-svg48-css"></span> <span class="icon-svg32-css"></span> <span class="icon-svg16-css"></span> css</div>
+		<br />
+		<div><span class="icon-svg64-mail"></span> <span class="icon-svg48-mail"></span> <span class="icon-svg32-mail"></span> <span class="icon-svg16-mail"></span> mail</div>
+		<br />
+		<div><span class="icon-svg64-help"></span> <span class="icon-svg48-help"></span> <span class="icon-svg32-help"></span> <span class="icon-svg16-help"></span> help</div>
+		<br />
+		<div><span class="icon-svg64-warning"></span> <span class="icon-svg48-warning"></span> <span class="icon-svg32-warning"></span> </span> <span class="icon-svg16-warning"></span> warning</div>
+		<br />
+		<div><span class="icon-svg64-info"></span> <span class="icon-svg48-info"></span> <span class="icon-svg32-info"></span> <span class="icon-svg16-info"></span> info</div>
+		<br />
+		<div><span class="icon-svg64-feed"></span> <span class="icon-svg48-feed"></span> <span class="icon-svg32-feed"></span> <span class="icon-svg16-feed"></span> feed</div>
 		
 			<h2>As png images</h2>
-			<p>Use &lt;span&gt; with the relevant class. XX is 64, 48, 32 or 16.</p>
-		<div><span class="icon-png64-external"></span><span class="icon-png48-external"></span><span class="icon-png32-external"></span><span class="icon-png16-external"></span> icon-pngXX-external</div>
-		<div><span class="icon-png32-pdf"></span><span class="icon-png16-pdf"></span> icon-pngXX-pdf</div>
-		<div><span class="icon-png32-openoffice"></span><span class="icon-png16-openoffice"></span> icon-pngXX-openoffice</div>
-		<div><span class="icon-png32-libreoffice"></span><span class="icon-png16-libreoffice"></span> icon-pngXX-libreoffice</div>
-		<div><span class="icon-png32-word"></span><span class="icon-png16-word"></span> icon-pngXX-word</div>
-		<div><span class="icon-png32-excel"></span><span class="icon-png16-excel"></span> icon-pngXX-excel</div>
-		<div><span class="icon-png32-powerpoint"></span><span class="icon-png16-powerpoint"></span> icon-pngXX-powerpoint</div>
-		<div><span class="icon-png32-text"></span><span class="icon-png16-text"></span> icon-pngXX-text</div>
-		<div><span class="icon-png32-zip"></span><span class="icon-png16-zip"></span> icon-pngXX-zip</div>
-		<div><span class="icon-png32-xml"></span><span class="icon-png16-xml"></span> icon-pngXX-xml</div>
-		<div><span class="icon-png32-css"></span><span class="icon-png16-css"></span> icon-pngXX-css</div>
-		<div><span class="icon-png32-mail"></span><span class="icon-png16-mail"></span> icon-pngXX-mail</div>
-		<div><span class="icon-png32-help"></span><span class="icon-png16-help"></span> icon-pngXX-help</div>
-		<div><span class="icon-png32-warning"></span><span class="icon-png16-warning"></span> icon-pngXX-warning</div>
-		<div><span class="icon-png32-info"></span><span class="icon-png16-info"></span> icon-pngXX-info</div>
-		<div><span class="icon-png32-feed"></span><span class="icon-png16-feed"></span> icon-pngXX-feed</div>
+			<p>Use &lt;span&gt; with the relevant class.</p>
+			<p>Class name is the text shown prefixed by "icon-pngXX-", where XX is 64, 48, 32 or 16.</p>
+		<div><span class="icon-png64-external"></span> <span class="icon-png48-external"></span> <span class="icon-png32-external"></span> <span class="icon-png16-external"></span> external</div>
+		<br />
+		<div><span class="icon-png64-pdf"></span> <span class="icon-png48-pdf"></span> <span class="icon-png32-pdf"></span> <span class="icon-png16-pdf"></span> pdf</div>
+		<br />
+		<div><span class="icon-png64-openoffice"></span> <span class="icon-png48-openoffice"></span> <span class="icon-png32-openoffice"></span> <span class="icon-png16-openoffice"></span> openoffice</div>
+		<br />
+		<div><span class="icon-png64-libreoffice"></span> <span class="icon-png48-libreoffice"></span> <span class="icon-png32-libreoffice"></span> <span class="icon-png16-libreoffice"></span> libreoffice</div>
+		<br />
+		<div><span class="icon-png64-word"></span> <span class="icon-png48-word"></span> <span class="icon-png32-word"></span> <span class="icon-png16-word"></span> word</div>
+		<br />
+		<div><span class="icon-png64-excel"></span> <span class="icon-png48-excel"></span> <span class="icon-png32-excel"></span> <span class="icon-png16-excel"></span> excel</div>
+		<br />
+		<div><span class="icon-png64-powerpoint"></span> <span class="icon-png48-powerpoint"></span> <span class="icon-png32-powerpoint"></span> <span class="icon-png16-powerpoint"></span> powerpoint</div>
+		<br />
+		<div><span class="icon-png64-text"></span> <span class="icon-png48-text"></span> <span class="icon-png32-text"></span> <span class="icon-png16-text"></span> text</div>
+		<br />
+		<div><span class="icon-png64-zip"></span> <span class="icon-png48-zip"></span> <span class="icon-png32-zip"></span> <span class="icon-png16-zip"></span> zip</div>
+		<br />
+		<div><span class="icon-png64-xml"></span> <span class="icon-png48-xml"></span> <span class="icon-png32-xml"></span> <span class="icon-png16-xml"></span> xml</div>
+		<br />
+		<div><span class="icon-png64-css"></span> <span class="icon-png48-css"></span> <span class="icon-png32-css"></span> <span class="icon-png16-css"></span> css</div>
+		<br />
+		<div><span class="icon-png64-mail"></span> <span class="icon-png48-mail"></span> <span class="icon-png32-mail"></span> <span class="icon-png16-mail"></span> mail</div>
+		<br />
+		<div><span class="icon-png64-help"></span> <span class="icon-png48-help"></span> <span class="icon-png32-help"></span> <span class="icon-png16-help"></span> help</div>
+		<br />
+		<div><span class="icon-png64-warning"></span> <span class="icon-png48-warning"></span> <span class="icon-png32-warning"></span> <span class="icon-png16-warning"></span> warning</div>
+		<br />
+		<div><span class="icon-png64-info"></span> <span class="icon-png48-info"></span> <span class="icon-png32-info"></span> <span class="icon-png16-info"></span> info</div>
+		<br />
+		<div><span class="icon-png64-feed"></span> <span class="icon-png48-feed"></span> <span class="icon-png32-feed"></span> <span class="icon-png16-feed"></span> feed</div>
 		
 		
 			<!--[if lt IE 8]>

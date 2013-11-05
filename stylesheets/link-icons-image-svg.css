@@ -2,93 +2,355 @@
 [class*="icon-svg"] {
   display: inline-block;
   display: inline-block;
-  width: 32px;
-  height: 32px;
-  background-image: url(../images/sprites/sprites.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  vertical-align: middle;
 }
 
-/* line 10, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-external {
-  background-position: 0 0;
-  width: 32px;
+/* line 8, ../sass/link-icons-image-svg.scss */
+[class*="icon-svg16"] {
+  width: 16px;
+  height: 16px;
+  background-image: url(../images/sprites/16/sprites.svg);
 }
 
-/* line 14, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-file-pdf {
-  background-position: -48px 0;
+/* line 13, ../sass/link-icons-image-svg.scss */
+[class*="icon-svg32"] {
   width: 32px;
+  height: 32px;
+  background-image: url(../images/sprites/32/sprites.svg);
 }
 
 /* line 18, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-file-openoffice {
-  background-position: -96px 0;
-  width: 32px;
+[class*="icon-svg48"] {
+  width: 48px;
+  height: 48px;
+  background-image: url(../images/sprites/48/sprites.svg);
 }
 
-/* line 22, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-file-word {
-  background-position: -144px 0;
-  width: 32px;
+/* line 23, ../sass/link-icons-image-svg.scss */
+[class*="icon-svg64"] {
+  width: 64px;
+  height: 64px;
+  background-image: url(../images/sprites/64/sprites.svg);
 }
 
-/* line 26, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-file-excel {
-  background-position: -192px 0;
-  width: 32px;
+/* line 28, ../sass/link-icons-image-svg.scss */
+.icon-svg16-external {
+  background-position: 0 0;
 }
 
-/* line 30, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-file-powerpoint {
-  background-position: -240px 0;
-  width: 32px;
+/* line 31, ../sass/link-icons-image-svg.scss */
+.icon-svg16-pdf {
+  background-position: -32px 0;
 }
 
 /* line 34, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-file-zip {
-  background-position: -288px 0;
-  width: 32px;
+.icon-svg16-openoffice {
+  background-position: -64px 0;
 }
 
-/* line 38, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-file-xml {
-  background-position: -336px 0;
-  width: 32px;
+/* line 37, ../sass/link-icons-image-svg.scss */
+.icon-svg16-word {
+  background-position: -96px 0;
 }
 
-/* line 42, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-file-css {
-  background-position: -384px 0;
-  width: 32px;
+/* line 40, ../sass/link-icons-image-svg.scss */
+.icon-svg16-excel {
+  background-position: -128px 0;
+}
+
+/* line 43, ../sass/link-icons-image-svg.scss */
+.icon-svg16-powerpoint {
+  background-position: -160px 0;
 }
 
 /* line 46, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-mail {
-  background-position: -432px 0;
-  width: 32px;
+.icon-svg16-zip {
+  background-position: -192px 0;
 }
 
-/* line 50, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-help {
-  background-position: -480px 0;
-  width: 32px;
+/* line 49, ../sass/link-icons-image-svg.scss */
+.icon-svg16-xml {
+  background-position: -224px 0;
 }
 
-/* line 54, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-warning {
-  background-position: -528px 0;
-  width: 32px;
+/* line 52, ../sass/link-icons-image-svg.scss */
+.icon-svg16-css {
+  background-position: -256px 0;
+}
+
+/* line 55, ../sass/link-icons-image-svg.scss */
+.icon-svg16-mail {
+  background-position: -288px 0;
 }
 
 /* line 58, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-info {
-  background-position: -576px 0;
-  width: 32px;
+.icon-svg16-help {
+  background-position: -320px 0;
 }
 
-/* line 62, ../sass/link-icons-image-svg.scss */
-.icon-svg-image-feed {
+/* line 61, ../sass/link-icons-image-svg.scss */
+.icon-svg16-warning {
+  background-position: -352px 0;
+}
+
+/* line 64, ../sass/link-icons-image-svg.scss */
+.icon-svg16-info {
+  background-position: -384px 0;
+}
+
+/* line 67, ../sass/link-icons-image-svg.scss */
+.icon-svg16-feed {
+  background-position: -416px 0;
+}
+
+/* line 70, ../sass/link-icons-image-svg.scss */
+.icon-svg16-libreoffice {
+  background-position: -448px 0;
+}
+
+/* line 73, ../sass/link-icons-image-svg.scss */
+.icon-svg16-text {
+  background-position: -480px 0;
+}
+
+/* line 76, ../sass/link-icons-image-svg.scss */
+.icon-svg32-external {
+  background-position: 0 0;
+}
+
+/* line 79, ../sass/link-icons-image-svg.scss */
+.icon-svg32-pdf {
+  background-position: -48px 0;
+}
+
+/* line 82, ../sass/link-icons-image-svg.scss */
+.icon-svg32-openoffice {
+  background-position: -96px 0;
+}
+
+/* line 85, ../sass/link-icons-image-svg.scss */
+.icon-svg32-word {
+  background-position: -144px 0;
+}
+
+/* line 88, ../sass/link-icons-image-svg.scss */
+.icon-svg32-excel {
+  background-position: -192px 0;
+}
+
+/* line 91, ../sass/link-icons-image-svg.scss */
+.icon-svg32-powerpoint {
+  background-position: -240px 0;
+}
+
+/* line 94, ../sass/link-icons-image-svg.scss */
+.icon-svg32-zip {
+  background-position: -288px 0;
+}
+
+/* line 97, ../sass/link-icons-image-svg.scss */
+.icon-svg32-xml {
+  background-position: -336px 0;
+}
+
+/* line 100, ../sass/link-icons-image-svg.scss */
+.icon-svg32-css {
+  background-position: -384px 0;
+}
+
+/* line 103, ../sass/link-icons-image-svg.scss */
+.icon-svg32-mail {
+  background-position: -432px 0;
+}
+
+/* line 106, ../sass/link-icons-image-svg.scss */
+.icon-svg32-help {
+  background-position: -480px 0;
+}
+
+/* line 109, ../sass/link-icons-image-svg.scss */
+.icon-svg32-warning {
+  background-position: -528px 0;
+}
+
+/* line 112, ../sass/link-icons-image-svg.scss */
+.icon-svg32-info {
+  background-position: -576px 0;
+}
+
+/* line 115, ../sass/link-icons-image-svg.scss */
+.icon-svg32-feed {
   background-position: -624px 0;
-  width: 32px;
+}
+
+/* line 118, ../sass/link-icons-image-svg.scss */
+.icon-svg32-libreoffice {
+  background-position: -672px 0;
+}
+
+/* line 121, ../sass/link-icons-image-svg.scss */
+.icon-svg32-text {
+  background-position: -720px 0;
+}
+
+/* line 124, ../sass/link-icons-image-svg.scss */
+.icon-svg48-external {
+  background-position: 0 0;
+}
+
+/* line 127, ../sass/link-icons-image-svg.scss */
+.icon-svg48-pdf {
+  background-position: -64px 0;
+}
+
+/* line 130, ../sass/link-icons-image-svg.scss */
+.icon-svg48-openoffice {
+  background-position: -128px 0;
+}
+
+/* line 133, ../sass/link-icons-image-svg.scss */
+.icon-svg48-word {
+  background-position: -192px 0;
+}
+
+/* line 136, ../sass/link-icons-image-svg.scss */
+.icon-svg48-excel {
+  background-position: -256px 0;
+}
+
+/* line 139, ../sass/link-icons-image-svg.scss */
+.icon-svg48-powerpoint {
+  background-position: -320px 0;
+}
+
+/* line 142, ../sass/link-icons-image-svg.scss */
+.icon-svg48-zip {
+  background-position: -384px 0;
+}
+
+/* line 145, ../sass/link-icons-image-svg.scss */
+.icon-svg48-xml {
+  background-position: -448px 0;
+}
+
+/* line 148, ../sass/link-icons-image-svg.scss */
+.icon-svg48-css {
+  background-position: -512px 0;
+}
+
+/* line 151, ../sass/link-icons-image-svg.scss */
+.icon-svg48-mail {
+  background-position: -576px 0;
+}
+
+/* line 154, ../sass/link-icons-image-svg.scss */
+.icon-svg48-help {
+  background-position: -640px 0;
+}
+
+/* line 157, ../sass/link-icons-image-svg.scss */
+.icon-svg48-warning {
+  background-position: -704px 0;
+}
+
+/* line 160, ../sass/link-icons-image-svg.scss */
+.icon-svg48-info {
+  background-position: -768px 0;
+}
+
+/* line 163, ../sass/link-icons-image-svg.scss */
+.icon-svg48-feed {
+  background-position: -832px 0;
+}
+
+/* line 166, ../sass/link-icons-image-svg.scss */
+.icon-svg48-libreoffice {
+  background-position: -896px 0;
+}
+
+/* line 169, ../sass/link-icons-image-svg.scss */
+.icon-svg48-text {
+  background-position: -960px 0;
+}
+
+/* line 172, ../sass/link-icons-image-svg.scss */
+.icon-svg64-external {
+  background-position: 0 0;
+}
+
+/* line 175, ../sass/link-icons-image-svg.scss */
+.icon-svg64-pdf {
+  background-position: -80px 0;
+}
+
+/* line 178, ../sass/link-icons-image-svg.scss */
+.icon-svg64-openoffice {
+  background-position: -160px 0;
+}
+
+/* line 181, ../sass/link-icons-image-svg.scss */
+.icon-svg64-word {
+  background-position: -240px 0;
+}
+
+/* line 184, ../sass/link-icons-image-svg.scss */
+.icon-svg64-excel {
+  background-position: -320px 0;
+}
+
+/* line 187, ../sass/link-icons-image-svg.scss */
+.icon-svg64-powerpoint {
+  background-position: -400px 0;
+}
+
+/* line 190, ../sass/link-icons-image-svg.scss */
+.icon-svg64-zip {
+  background-position: -480px 0;
+}
+
+/* line 193, ../sass/link-icons-image-svg.scss */
+.icon-svg64-xml {
+  background-position: -560px 0;
+}
+
+/* line 196, ../sass/link-icons-image-svg.scss */
+.icon-svg64-css {
+  background-position: -640px 0;
+}
+
+/* line 199, ../sass/link-icons-image-svg.scss */
+.icon-svg64-mail {
+  background-position: -720px 0;
+}
+
+/* line 202, ../sass/link-icons-image-svg.scss */
+.icon-svg64-help {
+  background-position: -800px 0;
+}
+
+/* line 205, ../sass/link-icons-image-svg.scss */
+.icon-svg64-warning {
+  background-position: -880px 0;
+}
+
+/* line 208, ../sass/link-icons-image-svg.scss */
+.icon-svg64-info {
+  background-position: -960px 0;
+}
+
+/* line 211, ../sass/link-icons-image-svg.scss */
+.icon-svg64-feed {
+  background-position: -1040px 0;
+}
+
+/* line 214, ../sass/link-icons-image-svg.scss */
+.icon-svg64-libreoffice {
+  background-position: -1120px 0;
+}
+
+/* line 217, ../sass/link-icons-image-svg.scss */
+.icon-svg64-text {
+  background-position: -1200px 0;
 }
