@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-@mixin icon-font {
+@mixin kwd-icon-font {
   font-family: 'link-types';
   speak: none;
   font-style: normal;
@@ -24,6 +24,8 @@ a {
 }
 
 a.external,
+a[href^="http:"]:after,
+a[href^="https:"]:after,
 a[href^="mailto:"]:after,
 a[href$=".pdf"]:after,
 a[href$=".doc"]:after,
@@ -34,87 +36,89 @@ a[href$=".ppt"]:after,
 a[href$=".zip"]:after,
 a[href$=".rss"]:after,
 a[href$=".rdf"]:after,
-[class*="icon-font"] 
+[class*="kwd-icon-font"] 
 {
-  @include icon-font;
+  @include kwd-icon-font;
 }
 
 a[href$=".rss"]:after,
 a[href$=".rdf"]:after,
-.icon-font-feed:after {
+.kwd-icon-font-feed:after {
   content: "\e284";
   padding-left: 0.25em;
 }
 
 a.external:after,
-.icon-font-external:after {
+a[href^="http:"]:after,
+a[href^="https:"]:after,
+.kwd-icon-font-external:after {
   content: "\f08e";
   padding-left: 0.25em;
 }
 
 a[href$=".pdf"]:after,
-.icon-font-pdf:after {
+.kwd-icon-font-pdf:after {
   content: "\e2bb";
   padding-left: 0.25em;
 }
 
 a[href$=".txt"]:after,
-.icon-font-text:after {
+.kwd-icon-font-text:after {
   content: "\e052";
   padding-left: 0.25em;
 }
 
 a[href$=".doc"]:after,
-.icon-font-word:after {
+.kwd-icon-font-word:after {
   content: "\e2bd";
   padding-left: 0.25em;
 }
 
 a[href$=".xls"]:after,
-.icon-font-excel:after {
+.kwd-icon-font-excel:after {
   content: "\e2be";
   padding-left: 0.25em;
 }
 
 a[href$=".ppt"]:after,
-.icon-font-powerpoint:after {
+.kwd-icon-font-powerpoint:after {
   content: "\e2bf";
   padding-left: 0.25em;
 }
 
 a[href$=".zip"]:after,
-.icon-font-zip:after {
+.kwd-icon-font-zip:after {
   content: "\e2c0";
   padding-left: 0.25em;
 }
 
-.icon-font-html:after {
+.kwd-icon-font-html:after {
   content: "\e2c1";
   padding-left: 0.25em;
 }
 
-.icon-font-css:after {
+.kwd-icon-font-css:after {
   content: "\e2c2";
   padding-left: 0.25em;
 }
 
 a[href^="mailto:"]:after,
-.icon-font-mail:after {
+.kwd-icon-font-mail:after {
   content: "\e079";
   padding-left: 0.25em;
 }
 
-.icon-font-help:after {
+.kwd-icon-font-help:after {
   content: "\e1e0";
   padding-left: 0.25em;
 }
 
-.icon-font-warning:after {
+.kwd-icon-font-warning:after {
   content: "\e1dc";
   padding-left: 0.25em;
 }
 
-.icon-font-info:after {
+.kwd-icon-font-info:after {
   content: "\e1e3";
   padding-left: 0.25em;
 }
@@ -122,13 +126,13 @@ a[href^="mailto:"]:after,
 /* choose either open office or libre office for the file type */
 /* by commenting out one of the a[href...] lines               */
 /* a[href$=".odt"]:after, */
-.icon-font-openoffice:after {
+.kwd-icon-font-openoffice:after {
   content: "\e2bc";
   padding-left: 0.25em;
 }
 
 a[href$=".odt"]:after,
-.icon-font-libreoffice:after {
+.kwd-icon-font-libreoffice:after {
   content: "\e2ba";
   padding-left: 0.25em;
 }

@@ -11,8 +11,10 @@ a {
   text-decoration: none;
 }
 
-/* line 38, ../sass/link-icon-font.scss */
+/* line 40, ../sass/link-icon-font.scss */
 a.external,
+a[href^="http:"]:after,
+a[href^="https:"]:after,
 a[href^="mailto:"]:after,
 a[href$=".pdf"]:after,
 a[href$=".doc"]:after,
@@ -23,7 +25,7 @@ a[href$=".ppt"]:after,
 a[href$=".zip"]:after,
 a[href$=".rss"]:after,
 a[href$=".rdf"]:after,
-[class*="icon-font"] {
+[class*="kwd-icon-font"] {
   font-family: 'link-types';
   speak: none;
   font-style: normal;
@@ -33,96 +35,98 @@ a[href$=".rdf"]:after,
   line-height: 1.2;
 }
 
-/* line 44, ../sass/link-icon-font.scss */
+/* line 46, ../sass/link-icon-font.scss */
 a[href$=".rss"]:after,
 a[href$=".rdf"]:after,
-.icon-font-feed:after {
+.kwd-icon-font-feed:after {
   content: "\e284";
   padding-left: 0.25em;
 }
 
-/* line 50, ../sass/link-icon-font.scss */
+/* line 54, ../sass/link-icon-font.scss */
 a.external:after,
-.icon-font-external:after {
+a[href^="http:"]:after,
+a[href^="https:"]:after,
+.kwd-icon-font-external:after {
   content: "\f08e";
   padding-left: 0.25em;
 }
 
-/* line 56, ../sass/link-icon-font.scss */
+/* line 60, ../sass/link-icon-font.scss */
 a[href$=".pdf"]:after,
-.icon-font-pdf:after {
+.kwd-icon-font-pdf:after {
   content: "\e2bb";
   padding-left: 0.25em;
 }
 
-/* line 62, ../sass/link-icon-font.scss */
+/* line 66, ../sass/link-icon-font.scss */
 a[href$=".txt"]:after,
-.icon-font-text:after {
+.kwd-icon-font-text:after {
   content: "\e052";
   padding-left: 0.25em;
 }
 
-/* line 68, ../sass/link-icon-font.scss */
+/* line 72, ../sass/link-icon-font.scss */
 a[href$=".doc"]:after,
-.icon-font-word:after {
+.kwd-icon-font-word:after {
   content: "\e2bd";
   padding-left: 0.25em;
 }
 
-/* line 74, ../sass/link-icon-font.scss */
+/* line 78, ../sass/link-icon-font.scss */
 a[href$=".xls"]:after,
-.icon-font-excel:after {
+.kwd-icon-font-excel:after {
   content: "\e2be";
   padding-left: 0.25em;
 }
 
-/* line 80, ../sass/link-icon-font.scss */
+/* line 84, ../sass/link-icon-font.scss */
 a[href$=".ppt"]:after,
-.icon-font-powerpoint:after {
+.kwd-icon-font-powerpoint:after {
   content: "\e2bf";
   padding-left: 0.25em;
 }
 
-/* line 86, ../sass/link-icon-font.scss */
+/* line 90, ../sass/link-icon-font.scss */
 a[href$=".zip"]:after,
-.icon-font-zip:after {
+.kwd-icon-font-zip:after {
   content: "\e2c0";
   padding-left: 0.25em;
 }
 
-/* line 91, ../sass/link-icon-font.scss */
-.icon-font-html:after {
+/* line 95, ../sass/link-icon-font.scss */
+.kwd-icon-font-html:after {
   content: "\e2c1";
   padding-left: 0.25em;
 }
 
-/* line 96, ../sass/link-icon-font.scss */
-.icon-font-css:after {
+/* line 100, ../sass/link-icon-font.scss */
+.kwd-icon-font-css:after {
   content: "\e2c2";
   padding-left: 0.25em;
 }
 
-/* line 102, ../sass/link-icon-font.scss */
+/* line 106, ../sass/link-icon-font.scss */
 a[href^="mailto:"]:after,
-.icon-font-mail:after {
+.kwd-icon-font-mail:after {
   content: "\e079";
   padding-left: 0.25em;
 }
 
-/* line 107, ../sass/link-icon-font.scss */
-.icon-font-help:after {
+/* line 111, ../sass/link-icon-font.scss */
+.kwd-icon-font-help:after {
   content: "\e1e0";
   padding-left: 0.25em;
 }
 
-/* line 112, ../sass/link-icon-font.scss */
-.icon-font-warning:after {
+/* line 116, ../sass/link-icon-font.scss */
+.kwd-icon-font-warning:after {
   content: "\e1dc";
   padding-left: 0.25em;
 }
 
-/* line 117, ../sass/link-icon-font.scss */
-.icon-font-info:after {
+/* line 121, ../sass/link-icon-font.scss */
+.kwd-icon-font-info:after {
   content: "\e1e3";
   padding-left: 0.25em;
 }
@@ -130,20 +134,20 @@ a[href^="mailto:"]:after,
 /* choose either open office or libre office for the file type */
 /* by commenting out one of the a[href...] lines               */
 /* a[href$=".odt"]:after, */
-/* line 125, ../sass/link-icon-font.scss */
-.icon-font-openoffice:after {
+/* line 129, ../sass/link-icon-font.scss */
+.kwd-icon-font-openoffice:after {
   content: "\e2bc";
   padding-left: 0.25em;
 }
 
-/* line 131, ../sass/link-icon-font.scss */
+/* line 135, ../sass/link-icon-font.scss */
 a[href$=".odt"]:after,
-.icon-font-libreoffice:after {
+.kwd-icon-font-libreoffice:after {
   content: "\e2ba";
   padding-left: 0.25em;
 }
 
-/* line 136, ../sass/link-icon-font.scss */
+/* line 140, ../sass/link-icon-font.scss */
 .noIcon:after {
   content: none;
   font-size: 0;
