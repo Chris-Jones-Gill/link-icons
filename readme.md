@@ -3,28 +3,12 @@ About This Project
 
 This is a project that displays link and/or file type icons based on the filetype of a link - or as specified by class.    
   
-Icon font created using [IcoMoon](http://icomoon.io/ "IcoMoon hompage - opens in a new window") by KISS Web Design, it contains icons from the IcoMoon and the Font Awesome Web Fonts.  
+Icon font created using [IcoMoon](http://icomoon.io/ "IcoMoon hompage - opens in a new window") by Chris Jones-Gill, it contains icons from the IcoMoon and the Font Awesome Web Fonts.  
 
 You can view the demo by cloning the repo and viewing the index.html in a browser.
 
-If you use this and find it useful consider donating using [Gittip](https://www.gittip.com/KISS-Web-Design/ "KISS Web Design's Gittip page")
-
 ------------    
   
-Contact info  
-============  
-  
- * Via github:		
-	+ [https://github.com/KISS-Web-Design](https://github.com/KISS-Web-Design "Link to KISS Web Design Github page")  
- * Via website:	
-	+ [http://kisswebdesign.co.uk](http://kisswebdesign.co.uk/contact "Link to the KISS Web Design contact page")  
- * Via Twitter:	
-	+ [@KissWebDesign](https://twitter.com/KissWebDesign "Twitter link for KISS Web Design")  
- * Via Facebook:	
-	+ [http://www.facebook.com/pages/Kiss-Web-Design-Ltd](http://www.facebook.com/KissWebDesign"Link to the KISS Web Design Facebook Page")  
-  
------------- 
-    
 User Information
 ================
 
@@ -61,7 +45,7 @@ COPYRIGHTS
 ==========
 
  * scss, css and html files
-   (c) 2013 KISS Web Design
+   (c) 2013 Chris Jones-Gill
    
  * Images
    (c) IcoMoon except
